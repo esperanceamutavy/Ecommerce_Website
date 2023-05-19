@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Circle Store | Our Products</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="Images/Circle Logo.png" type="image/x-icon">
+<body>
+<div class="container">
+<div class="navbar">
+      <div class="logo">
+        <a href="index.html"><img src="Images/Circle Logo.png" width="45px" height="45px" alt=""></a>
+      </div>
+  <nav>
+    <ul id="MenuItems">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="account.html">Account</a></li>
+    </ul>
+  </nav>
+  <a href="cart.html"><img src="Images/cart.png" width="30px" height="30px" alt=""></a>
+  <img src="Images/menu.png" class="menu-icon" onclick="menutoggle()">
+
+</div>
+  </div>
+  
+<div class="small-container">
+
+    <div class="row row-2">
+        <h2>All Products</h2>
+        <select name="" id="">
+            <option>Default Sort</option>
+            <option>Sort by Price</option>
+            <option>Sort By Popularity </option>
+            <option>Sort By Rating</option>
+            <option>Sale</option>
+        </select>
+    </div>
+
+
+  <div class="row">
+        <div class="col-4">
+          <a href="productdetails.html"><img src="Images/party1.jpg" alt=""></a>
+          <h4>Party Dress</h4>
+          <div class="rating"></div>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o"></i>
+          <p>Ksh 2500.00</p>
+        </div>
+        <div class="col-4">
+          <img src="Images/stilleto.png" alt="">
+          <h4>Women's Heels</h4>
+          <div class="rating"></div>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o"></i>
+          <i class="fa fa-star-o" ></i>
+          <p>Ksh 7000.00</p>
+        </div>
+          <div class="col-4">
+            <img src="Images/gold necklace.jpg" alt="">
+            <h4>Gold Necklace</h4>
+            <div class="rating"></div>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star-half-o"></i>
+            <p>Ksh 12000.00</p>
+          </div>
+          <div class="col-4">
+            <img src="Images/blouse1.png" alt="">
+            <h4>Batwing Sleeve Blouse </h4>
+            <div class="rating"></div>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <i class="fa fa-star" ></i>
+            <p>Ksh 1500.00</p>
+          </div>
+          <div class="categories">
+            <div class="small-container">
+              <div class="row">
+              <div class="col-3">
+                <img src="Images/fashion-category.jpg" alt="">
+                </div>
+                  <div class="col-3">
+                    <img src="Images/jewellery- category.jpg" alt="">
+                  </div>
+                    <div class="col-3">
+                      <img src="Images/shoes-category.jpg" alt="">
+                    </div>
+              </div>
+            </div>
+          </div>
+          <!--Products-->
+          <div class="small-container">
+            <div class="row">
+                  <div class="col-4">
+                    <img src="Images/dress1.jpg" alt="">
+                    <h4>Women's Dress</h4>
+                    <div class="rating"></div>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <p>Ksh 3500.00</p>
+                  </div>
+                  <div class="col-4">
+                    <img src="Images/stilleto.png" alt="">
+                    <h4>Women's Heels</h4>
+                    <div class="rating"></div>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o" ></i>
+                    <p>Ksh 7000.00</p>
+                  </div>
+                    <div class="col-4">
+                      <img src="Images/gold necklace.jpg" alt="">
+                      <h4>Gold Necklace</h4>
+                      <div class="rating"></div>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <p>Ksh 12000.00</p>
+                    </div>
+                    <div class="col-4">
+                      <img src="Images/blouse1.png" alt="">
+                      <h4>Batwing Sleeve Blouse </h4>
+                      <div class="rating"></div>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <p>Ksh 1500.00</p>
+                    </div>
+            </div>
+            <div class="row">
+              <div class="col-4">
+                <img src="Images/arrival1.jpg" alt="">
+                <h4>Pallazo Pants</h4>
+                <div class="rating"></div>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o"></i>
+                <p>Ksh 3500.00</p>
+              </div>
+              <div class="col-4">
+                <img src="Images/arrival2.jpg" alt="">
+                <h4>Stilleto Heels</h4>
+                <div class="rating"></div>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star" ></i>
+                <i class="fa fa-star-half-o"></i>
+                <i class="fa fa-star-o" ></i>
+                <p>Ksh 7000.00</p>
+              </div>
+                <div class="col-4">
+                  <img src="Images/arrival3.jpg" alt="">
+                  <h4>Sneakers</h4>
+                  <div class="rating"></div>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star-half-o"></i>
+                  <p>Ksh 12000.00</p>
+                </div>
+                <div class="col-4">
+                  <img src="Images/arrival4.jpg" alt="">
+                  <h4>Airforce 1 </h4>
+                  <div class="rating"></div>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star" ></i>
+                  <i class="fa fa-star" ></i>
+                  <p>Ksh 1500.00</p>
+                </div>
+                <div class="row">
+                  <div class="col-4">
+                    <img src="Images/arrival5.jpg" alt="">
+                    <h4>Official Dress</h4>
+                    <div class="rating"></div>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <p>Ksh 3500.00</p>
+                  </div>
+                  <div class="col-4">
+                    <img src="Images/arrival6.jpg" alt="">
+                    <h4>Dainty Necklace</h4>
+                    <div class="rating"></div>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o" ></i>
+                    <p>Ksh 7000.00</p>
+                  </div>
+                    <div class="col-4">
+                      <img src="Images/arrival7.jpg" alt="">
+                      <h4>Rings</h4>
+                      <div class="rating"></div>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star-half-o"></i>
+                      <p>Ksh 12000.00</p>
+                    </div>
+                    <div class="col-4">
+                      <img src="Images/arrival8.jpg" alt="">
+                      <h4>Jewellery Organizer </h4>
+                      <div class="rating">
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                      <i class="fa fa-star" ></i>
+                    </div>
+                      <p>Ksh 1500.00</p>
+                    </div>
+              </div>
+                <div class="page-btn">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>&#8594;</span>
+
+                </div>
+  </div>
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Get out app on Google Playstore for Android and Apple Store for ios</p>
+          <div class="app-logo">
+            <img src="Images/logo1.png" alt="">
+            <img src="Images/logo2.jpg" alt="">
+          </div>
+        </div>
+          <div class="footer-col-2">
+           <img src="Images/Circle Logo.png" alt="">
+            <p>At Circle we aim at bringing your favourite fashion brands closer to you </p>
+          </div>
+            <div class="footer-col-3">
+              <h3>Connect With Us!</h3>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                </ul>
+            </div>
+      </div>
+        <hr>
+        <p class="copyright"> Copyright 2023 | Esperance Amutavy</p>
+    </div>
+  </div>
+
+<!--Javascript-->
+<script>
+  var MenuItems = document.getElementById("MenuItems");
+  MenuItems.style.maxHeight = "0px"
+  function menutoggle(){
+    if (MenuItems.style.maxHeight == "0px")
+    {
+      MenuItems.style.maxHeight = "200px";  
+    }
+    else
+    {
+      MenuItems.style.maxHeight = "0px"
+    }
+  }
+</script>
+</body>
+</html>
